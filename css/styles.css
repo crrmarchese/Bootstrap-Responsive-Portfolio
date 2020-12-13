@@ -1,0 +1,48 @@
+/*================= GLOBAL ==================*/
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0px 0 50px 0;
+	letter-spacing: .25rem;
+}
+/*================= HEADER ==================*/
+/*----------------- Navigation --------------*/
+.navbar-toggler {
+		color: rgba(0,0,0,.55);
+		border-color: rgba(0,0,0,.5);
+}
+
+
+/*================= MEDIA QUERIES ==================*/
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
