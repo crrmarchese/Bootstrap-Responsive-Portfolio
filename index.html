@@ -5,17 +5,22 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Catherine Marchese Personal Portfolio</title>
+	<!-- Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<!-- Google Fonts-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">	
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/45e97f819a.js" crossorigin="anonymous"></script>
+	<!-- Custom styles -->	
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 	<!-- Logo and Nav -->
 	<header>
-		<div id="top" class="container">
+		<div class="container primary-menu">
 			<div class="row">
 				<div class="col-12">
 					<div class="brand-logo"><a href="index.html"><img src="assets/images/main-logo.svg" alt="CM logo" class="img__logo"></a></div>
@@ -45,29 +50,40 @@
 		</div>
 	</header>
 	<!-- Main content -->
-	<div class="container">
+	<main id="main-about">
+		<div class="container">
 
-		<div class="row">
-			<div class="col-12">
-				<h1 class="text-center">About Me</h1>
-			</div>	
-		</div>
-		<div class="row">
-			<div class="col-12">
-				<img src="assets/images/who_i_am_crop.jpg" class="img-fluid img-thumbnail mb-4 me-4" alt="Female worker looking at computer screen" style="float:left;max-width:25%;">
-				<section id="Summary">
-					<h2>Summary</h2>
-					<p>Motivated and detail-oriented professional front-end web developer with several years of experience in the Marketing and Adverstising industries. Diversified skill set covering technical/administrative support, project management and web development. Finely-tuned analytical skills with a dedication to expanding subject knowledge and workplace competencies through continuing research and training.</p>
-				</section>
-				<section id="what-i-do">
-					<h2>What I Do</h2>
-				<p>I have been working with WordPress for the past 6 years and I'm looking for a new challenge. I am an analytical, fast learner with the desire to learn and apply new skills. I want my work to matter, and continually improve the work that I do. I am currently enrolled in <a href="https://bootcamp.unh.edu/" target="_blank" >UNH's Coding Boot Camp</a> working towards a Full Stack Developer certificate.</p>
-				</section>	
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center">About Me</h1>
+				</div>	
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<img src="assets/images/who_i_am_crop.jpg" class="img-fluid img-thumbnail mb-4 me-4" alt="Female worker looking at computer screen" style="float:left;max-width:25%;">
+					<section id="Summary">
+						<h2>Summary</h2>
+						<p>Motivated and detail-oriented professional front-end web developer with several years of experience in the Marketing and Adverstising industries. Diversified skill set covering technical/administrative support, project management and web development. Finely-tuned analytical skills with a dedication to expanding subject knowledge and workplace competencies through continuing research and training.</p>
+					</section>
+					<section id="what-i-do">
+						<h2>What I Do</h2>
+					<p>I have been working with WordPress for the past 6 years and I'm looking for a new challenge. I am an analytical, fast learner with the desire to learn and apply new skills. I want my work to matter, and continually improve the work that I do. I am currently enrolled in <a href="https://bootcamp.unh.edu/" target="_blank" >UNH's Coding Boot Camp</a> working towards a Full Stack Developer certificate.</p>
+					</section>	
+				</div>
 			</div>
 		</div>
-	</div>
-	<footer>
-		
+	</main>
+	<footer class="footer mt-auto py-3 bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ul id="footer-social" class="list-group list-group-horizontal">
+						<li class="list-group-item"><a href="https://www.linkedin.com/in/catherinemarchese/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+						<li class="list-group-item"><a href="https://github.com/crrmarchese" title="GitHub" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

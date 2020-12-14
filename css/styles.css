@@ -1,21 +1,16 @@
 /*================= GLOBAL ==================*/
-:root {
-	--cm-very-dark-gray: #333;
-
-}
-
 body {
 	font-family: 'Raleway', sans-serif;
-	margin: 1.25rem;
+	margin-top: 1.25rem;
+	font-weight: 400;
 }
 
 a {
-	color: var(--cm-very-dark-gray);
-	text-decoration: none;
+	color :var(--bs-dark-gray);
 }
 
 a:hover {
- color: #c94258;
+	 color: #c94258;
 }
 
 h1, .navbar-brand {
@@ -28,20 +23,28 @@ h1 {
 }
 p {
     color: #616265;
-    font-weight: 400;
     letter-spacing: 1px;
 }
+
+footer .list-group-horizontal .list-group-item {
+	background-color: transparent;
+	border: none;
+}
+
+main {
+	margin-bottom: 5rem;
+}
+
 /*================= HEADER ==================*/
 /*----------------- Navigation --------------*/
 .navbar-brand.h1 {
 	font-weight: 700;
 }
 .navbar-toggler {
-		color: var(--cm-very-dark-gray);
-		border-color: rgba(0,0,0,.5);
+	color: var(--bs-dark-gray);
+	border-color: rgba(0,0,0,.5);
 }
 .nav .nav-item {
-	font-weight: 400;
 	padding: 1.25rem 2.5rem;
 	letter-spacing: .0625rem;
 }
@@ -68,9 +71,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	nav.navbar-nav {
-		justify-content: flex-end;
-	}
+	
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
