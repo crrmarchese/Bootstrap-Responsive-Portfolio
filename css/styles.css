@@ -49,7 +49,7 @@ main {
 }
 
 .nav .nav-item.active .nav-link {
-    border-bottom: 1px solid #cf566a;
+    color: #cf566a;
 }
 
 /*================= CONTENT ==================*/
