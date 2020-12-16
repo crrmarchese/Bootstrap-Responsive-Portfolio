@@ -17,6 +17,11 @@ a:hover {
 	 color: #c94258;
 }
 
+.btn {
+	text-transform: uppercase;
+	font-size: smaller; 
+	letter-spacing: .125rem;;
+}
 .btn:hover {
 	color: var(--bs-white);
 	background-color: #c94258;
