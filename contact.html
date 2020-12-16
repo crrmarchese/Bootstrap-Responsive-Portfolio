@@ -23,10 +23,10 @@
 		<div class="container primary-menu">
 			<div class="row">
 				<div class="col-12">
-					<div class="brand-logo"><a href="index.html"><img src="assets/images/main-logo.svg" alt="CM logo" class="img__logo"></a></div>
+					<div class="brand-logo"><a href="index.html"><img src="assets/images/main-logo.svg" alt="CM logo" class="img__logo img-fluid"></a></div>
 				</div>
 				<div class="col-12">
-					<nav class="navbar navbar-expand-md navbar-light bg-light mt-3 mb-4 p-2">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light mt-3 mb-4 p-2">
 						<span class="navbar-brand mb-1 h1 ps-2">Cathy Marchese</span>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
@@ -53,11 +53,30 @@
 	<!-- Main content -->
 	<main id="main-contact">
 		<div class="container">
-
 			<div class="row">
 				<div class="col-12">
 					<h1 class="text-center">Contact</h1>
 				</div>	
+			</div>
+			<!-- Form -->
+			<div class="row">
+				<div class="col-lg-7 col-sm-6">
+					<form id="form-contact">
+						<div class="mb-4">
+						  <label for="name" class="form-label">Name</label>
+						  <input type="text" class="form-control" id="name" aria-label="name" placeholder="Name">
+						</div>
+						<div class="mb-4">
+						  <label for="email" class="form-label">Email</label>
+						  <input type="email" class="form-control" id="email" placeholder="Email" aria-label="email">
+						</div>
+						<div class="mb-4">
+							<label for="message" class="form-label">Message</label>
+						  	<input type="text" class="form-control" id="message" placeholder="Message" aria-label="message">
+						</div>
+						<button type="submit" class="btn btn--custom-color">Submit</button>
+					  </form>
+				</div>
 			</div>
 		</div>
 	</main>

@@ -1,4 +1,8 @@
 /*================= GLOBAL ==================*/
+:root {
+	--main-accent-color: #cf566a;	
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
 	margin-top: 1.25rem;
@@ -11,6 +15,11 @@ a {
 
 a:hover {
 	 color: #c94258;
+}
+
+.btn:hover {
+	color: var(--bs-white);
+	background-color: #c94258;
 }
 
 h1, .navbar-brand {
@@ -33,13 +42,13 @@ main {
 }
 
 /*================= HEADER ==================*/
+
 /*----------------- Navigation --------------*/
 .navbar-brand.h1 {
 	font-weight: 700;
 }
 
 .navbar-toggler {
-	color: var(--bs-dark-gray);
 	border-color: rgba(0,0,0,.5);
 }
 
@@ -48,12 +57,27 @@ main {
 	letter-spacing: .0625rem;
 }
 
-.nav .nav-item.active .nav-link {
-    color: #cf566a;
+.nav .nav-item.active .nav-link, .active {
+    color: var(--main-accent-color);
 }
 
 /*================= CONTENT ==================*/
 
+/*----------------- Form --------------*/
+.form-label {
+	font-weight: 700;
+}
+.form-control {
+	line-height: 2.5;
+}
+input[placeholder] {
+	font-size: smaller;
+}
+.btn--custom-color {
+	color: var(--bs-white);
+    background-color: var(--main-accent-color);
+    border-color: var(--main-accent-color);
+}
 
 /*================= FOOTER ==================*/
 footer .list-group-horizontal .list-group-item {
