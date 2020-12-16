@@ -68,6 +68,12 @@ main {
 
 /*================= CONTENT ==================*/
 
+/*----------------- Portfolio --------------*/
+.card-subtitle {
+	font-size: smaller;
+	text-transform: uppercase;
+}
+
 /*----------------- Form --------------*/
 .form-label {
 	font-weight: 700;
