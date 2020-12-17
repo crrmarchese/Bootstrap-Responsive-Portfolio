@@ -22,7 +22,7 @@ a:hover {
 	font-size: smaller; 
 	letter-spacing: .125rem;;
 }
-.btn:hover {
+.btn:hover, .filter-button-group .btn-check:active+.btn-light, .btn-check:checked+.btn-light, .btn-light.active, .btn-light:active, .show>.btn-light.dropdown-toggle {
 	color: var(--bs-white);
 	background-color: #c94258;
 }
@@ -62,7 +62,7 @@ main {
 	letter-spacing: .0625rem;
 }
 
-.nav .nav-item.active .nav-link, .active {
+.nav .nav-item .nav-link.active, .active {
     color: var(--main-accent-color);
 }
 
