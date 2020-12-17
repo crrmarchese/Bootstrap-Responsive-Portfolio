@@ -6,7 +6,7 @@ Create a responsive portfolio using the Bootstrap CSS Framework incorporating it
 
 ## Screenshot
 
-![Horiseon Home page](./assets/images/screenshot.png)
+![Personal Portfolio Home page](./assets/images/screenshot.png)
 
 ## URL
 
