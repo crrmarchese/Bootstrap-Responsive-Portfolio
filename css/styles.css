@@ -73,6 +73,10 @@ main {
 	font-size: smaller;
 	text-transform: uppercase;
 }
+.btn-group-vertical.filter-button-group button {
+	margin-bottom: 1rem;
+	padding: 1.25rem;
+}
 
 /*----------------- Form --------------*/
 .form-label {
@@ -104,7 +108,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+	
 
 }
 

@@ -58,9 +58,10 @@
 					<h1 class="text-center">Portfolio</h1>
 				</div>		
 			</div>
+			<!-- Filter for SM & Up-->
 			<div class="row mt-2 mb-5 text-center">
 				<div class="col-12">
-					<div class="btn-group filter-button-group" role="group" aria-label="portfolio-filter">
+					<div class="btn-group filter-button-group d-none d-sm-block" role="group" aria-label="portfolio-filter">
 						<button type="button" class="btn btn-light" data-filter="*">Show all</button>
 						<button type="button" class="btn btn-light" data-filter=".website">Website</button>
 						<button type="button" class="btn btn-light" data-filter=".creative">Creative</button>
@@ -68,7 +69,20 @@
 						<button type="button" class="btn btn-light" data-filter=".floral">Floral</button>
 					</div>
 				</div>		
-			</div>  
+			</div> 
+			<!-- Filter for XS-->
+			<div class="row mt-2 mb-5 text-center">
+				<div class="col-12">
+					<div class="btn-group-vertical filter-button-group d-block d-sm-none" role="group" aria-label="portfolio-filter">
+						<button type="button" class="btn btn-light" data-filter="*">Show all</button>
+						<button type="button" class="btn btn-light" data-filter=".website">Website</button>
+						<button type="button" class="btn btn-light" data-filter=".creative">Creative</button>
+						<button type="button" class="btn btn-light" data-filter=".project">Project</button>
+						<button type="button" class="btn btn-light" data-filter=".floral">Floral</button>
+					</div>
+				</div>		
+			</div> 
+			<!-- Cards -->  
 			<div class="row grid gy-4">
 				<div class="col-xl-3 col-md-6 col-lg-4 project">
 					<div class="card">
